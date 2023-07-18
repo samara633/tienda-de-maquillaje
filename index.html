@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>COSMETIC</title>
+</head>
+<body>
+    
+    <div class="tienda">
+        <header class="header-movible">
+            <h1 class="logo">CarpiShop</h1>
+            <button class="open-menu" id="open-menu">
+                <i class="bi bi-list">x</i>
+            </button>
+        </header>
+        <aside>
+            <button class="close-menu" id="close-menu">
+                <i class="bi bi-x">x</i>
+            </button>
+            <header>
+                <h1 class="logo">Cosmetic</h1>
+            </header>
+            <nav>
+                <ul class="menu">
+                    <li>
+                        <button id="todos" class="boton-menu boton-categoria active"> Todos los productos</button>
+                    </li>
+                    <li>
+                        <button id="nosotros" class="boton-menu boton-categoria"> Nosotros</button>
+                    </li>
+                    <li>
+                        <button id="login" class="boton-menu boton-categoria"><a href="page/login.html">Login</a></button>
+                    </li>
+                </ul>
+            </nav>
+            <footer>
+                <p class="texto-footer">© 2023 Dream Developer</p>
+            </footer>
+        </aside>
+        <main>
+            <h2 class="titulo-principal" id="titulo-principal">Todos los productos</h2>
+            <div id="contenedor-productos" class="contenedor-productos">
+                <!-- Esto se va a rellenar con JS -->
+            </div>
+        </main>
+    </div>
+    
+    <script src="/data/data.js"></script>
+
+</body>
+</html>
